@@ -23,11 +23,11 @@ from keyboard import get_yes_no_kb
 
 
 
-TOKEN = '7596694039:AAFI2gLq1cn7HWyrzQObXkakKxrYXHQYdTM'
+TOKEN = 
 session = AiohttpSession()
 session._connector_init = {'ssl': False}
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML), session=session)
-# PROXY_URL = "https://5.189.133.192:50893"
+# PROXY_URL = 
 
 logging.basicConfig(level=logging.INFO)
 dp = Dispatcher()
